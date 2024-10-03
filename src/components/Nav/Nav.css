@@ -1,0 +1,11 @@
+.navigation {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    width: 20%;
+    left: 80%;
+    height: 100vh;
+    top: 0;
+    grid-column: 2/3;
+    box-sizing: border-box;
+}
