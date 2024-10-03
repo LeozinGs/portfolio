@@ -5,10 +5,12 @@ import './Container.css';
 const Container = () => {
     return (
         <div className="main-page">
+
             <Section>
             </Section>
 
             <Nav />
+
         </div>
     );
 }

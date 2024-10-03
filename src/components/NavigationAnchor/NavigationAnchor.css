@@ -1,0 +1,8 @@
+.naivgation-anchor {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 600;
+}
