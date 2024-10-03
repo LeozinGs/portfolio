@@ -1,5 +1,18 @@
 :root {
   --clr-text-black: #202020;
+  --clr-text-white: #ffffff;
+
+  --clr-grey: #2c3038;
+  --clr-yellow: #f5bf00;
+  --clr-lightOrange: #f7951c;
+  --clr-darkOrange: #f36422;
+  --clr-red: #ed1c24;
+  --clr-darkPink: #e10257;
+  --clr-pink: #b900a4;
+  --clr-purple: #873e95;
+  --clr-blue: #3c70b5;
+  --clr-cyan: #04ad81;
+  --clr-greenYellow: #87c15e;
 }
 
 * {

@@ -1,5 +1,7 @@
 .navigation-footer {
     display: flex;
     align-items: center;
-    gap: 1rem;
+    gap: 2rem;
+    flex-grow: 1;
+    padding: 0 2rem;
 }

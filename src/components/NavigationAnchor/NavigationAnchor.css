@@ -5,4 +5,17 @@
     text-decoration: none;
     text-transform: uppercase;
     font-weight: 600;
+    flex-grow: 1;
+    padding: 0 2rem;
+    color: var(--clr-text-white);
+    transition: all 100ms ease-in-out;
+}
+
+.naivgation-anchor:hover {
+    margin-left: -1.5em;
+    padding-left: 3.5em;
+}
+
+.icon {
+    font-size: 2.5em;
 }

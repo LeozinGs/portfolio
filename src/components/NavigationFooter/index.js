@@ -5,23 +5,23 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import FacebookIcon from '@mui/icons-material/Facebook';
 import NavigationFooterLink from './NavigationFooterLink';
 
-const NavigationFooter = ({ link, children }) => {
+const NavigationFooter = ({ color }) => {
     return (
-        <div className="navigation-footer">
+        <div className="navigation-footer" style={{ backgroundColor: `var(--clr-${color})` }}>
             <NavigationFooterLink
                 link={'#'}
             >
-                <GitHubIcon />
+                <GitHubIcon style={{ fontSize: '2.5em' }} />
             </NavigationFooterLink>
             <NavigationFooterLink
                 link={'#'}
             >
-                <LinkedInIcon />
+                <LinkedInIcon style={{ fontSize: '2.5em' }} />
             </NavigationFooterLink>
             <NavigationFooterLink
                 link={'#'}
             >
-                <FacebookIcon />
+                <FacebookIcon style={{ fontSize: '2.5em' }} />
             </NavigationFooterLink>
         </div>
     );

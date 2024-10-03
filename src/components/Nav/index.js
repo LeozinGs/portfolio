@@ -2,6 +2,8 @@ import NavigationAnchor from '../NavigationAnchor';
 import NavigationFooter from '../NavigationFooter';
 import NavigationHeader from '../NavigationHeader';
 
+import profilePhoto from '../../images/Imagem do WhatsApp de 2024-09-30 à(s) 18.08.56_5004c754.jpg';
+
 import './Nav.css';
 
 const Nav = () => {
@@ -9,13 +11,15 @@ const Nav = () => {
         <nav className='navigation'>
 
             <NavigationHeader
-                profileImage={'oi'}
-                logo={'LOGO.'}
+                profileImage={profilePhoto}
+                logo={'Leonardo Gomes'}
+                color={'grey'}
             />
 
             <NavigationAnchor
                 link={'#'}
                 icon={'thumb_up'}
+                color={'yellow'}
             >
                 Home
             </NavigationAnchor>
@@ -23,6 +27,7 @@ const Nav = () => {
             <NavigationAnchor
                 link={'#'}
                 icon={'account_circle'}
+                color={'lightOrange'}
             >
                 About me
             </NavigationAnchor>
@@ -30,6 +35,7 @@ const Nav = () => {
             <NavigationAnchor
                 link={'#'}
                 icon={'tune'}
+                color={'darkOrange'}
             >
                 Skills
             </NavigationAnchor>
@@ -37,6 +43,7 @@ const Nav = () => {
             <NavigationAnchor
                 link={'#'}
                 icon={'business_center'}
+                color={'red'}
             >
                 Experience
             </NavigationAnchor>
@@ -44,6 +51,7 @@ const Nav = () => {
             <NavigationAnchor
                 link={'#'}
                 icon={'auto_stories'}
+                color={'darkPink'}
             >
                 Education
             </NavigationAnchor>
@@ -51,6 +59,7 @@ const Nav = () => {
             <NavigationAnchor
                 link={'#'}
                 icon={'image'}
+                color={'pink'}
             >
                 Portfolio
             </NavigationAnchor>
@@ -58,6 +67,7 @@ const Nav = () => {
             <NavigationAnchor
                 link={'#'}
                 icon={'phone_in_talk'}
+                color={'purple'}
             >
                 Contact
             </NavigationAnchor>
@@ -65,6 +75,7 @@ const Nav = () => {
             <NavigationAnchor
                 link={'#'}
                 icon={'description'}
+                color={'blue'}
             >
                 Blog
             </NavigationAnchor>
@@ -72,11 +83,14 @@ const Nav = () => {
             <NavigationAnchor
                 link={'#'}
                 icon={'save'}
+                color={'cyan'}
             >
                 My Resume.PDF
             </NavigationAnchor>
 
-            <NavigationFooter />
+            <NavigationFooter
+                color={'greenYellow'}
+            />
 
         </nav>
     );

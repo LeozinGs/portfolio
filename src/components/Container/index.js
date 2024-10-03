@@ -7,6 +7,7 @@ const Container = () => {
         <div className="main-page">
 
             <Section>
+
             </Section>
 
             <Nav />

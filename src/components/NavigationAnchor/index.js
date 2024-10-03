@@ -1,9 +1,9 @@
 import './NavigationAnchor.css';
 
-const NavigationAnchor = ({ link, icon, children }) => {
+const NavigationAnchor = ({ link, icon, children, color }) => {
     return (
-        <a className='naivgation-anchor' href={link}>
-            <span className='material-icons'>{icon}</span>
+        <a className='naivgation-anchor' href={link} style={{ backgroundColor: `var(--clr-${color})` }}>
+            <span className='material-icons icon'>{icon}</span>
             {children}
         </a>
     );

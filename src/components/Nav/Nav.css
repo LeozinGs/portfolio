@@ -2,11 +2,12 @@
     display: flex;
     flex-direction: column;
     position: fixed;
-    width: 20%;
-    left: 80%;
+    width: 25%;
+    left: 75%;
     height: 100vh;
     top: 0;
     grid-column: 2/3;
     box-sizing: border-box;
     user-select: none;
+    color: var(--clr-text-white);
 }
