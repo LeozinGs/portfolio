@@ -1,17 +1,14 @@
 import Nav from '../Nav';
-import Section from '../Section';
 import './Container.css';
+import HomePage from '../Section/HomePage';
+import AboutMePage from '../Section/AboutMePage';
 
 const Container = () => {
     return (
         <div className="main-page">
-
-            <Section>
-
-            </Section>
-
+            <HomePage />
+            <AboutMePage />
             <Nav />
-
         </div>
     );
 }

@@ -2,6 +2,7 @@
   --clr-text-black: #202020;
   --clr-text-white: #ffffff;
 
+  --clr-lightGrey: #353942;
   --clr-grey: #2c3038;
   --clr-yellow: #f5bf00;
   --clr-lightOrange: #f7951c;
@@ -19,6 +20,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 body {

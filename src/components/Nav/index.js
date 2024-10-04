@@ -2,7 +2,7 @@ import NavigationAnchor from '../NavigationAnchor';
 import NavigationFooter from '../NavigationFooter';
 import NavigationHeader from '../NavigationHeader';
 
-import profilePhoto from '../../images/Imagem do WhatsApp de 2024-09-30 à(s) 18.08.56_5004c754.jpg';
+import profilePhoto from '../../images/profile-image.jpg';
 
 import './Nav.css';
 
@@ -17,7 +17,7 @@ const Nav = () => {
             />
 
             <NavigationAnchor
-                link={'#'}
+                link={'#home'}
                 icon={'thumb_up'}
                 color={'yellow'}
             >
@@ -25,7 +25,7 @@ const Nav = () => {
             </NavigationAnchor>
 
             <NavigationAnchor
-                link={'#'}
+                link={'#about-me'}
                 icon={'account_circle'}
                 color={'lightOrange'}
             >

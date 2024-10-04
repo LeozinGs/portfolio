@@ -1,0 +1,49 @@
+.about-me {
+    padding: 5rem;
+    box-sizing: border-box;
+}
+
+.about-me-title {
+    font-size: 4em;
+    font-weight: 700;
+}
+
+.about-me-description {
+    font-size: 1.5em;
+    font-weight: 700;
+    margin-bottom: 2rem;
+}
+
+.about-me-text {
+    font-size: 1.1em;
+    font-weight: 500;
+    margin-bottom: 3rem;
+}
+
+.count-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.count-number {
+    font-size: 3em;
+    font-weight: 700;
+}
+
+.count-text {
+    font-size: 1.2em;
+    font-weight: 600;
+}
+
+.count:nth-child(1) .count-number {
+    color: var(--clr-darkOrange);
+}
+
+.count:nth-child(2) .count-number {
+    color: var(--clr-greenYellow);
+}
+
+.count:nth-child(3) .count-number {
+    color: var(--clr-blue);
+}
