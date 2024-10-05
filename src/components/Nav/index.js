@@ -33,7 +33,7 @@ const Nav = () => {
             </NavigationAnchor>
 
             <NavigationAnchor
-                link={'#'}
+                link={'#my-skills'}
                 icon={'tune'}
                 color={'darkOrange'}
             >
@@ -41,7 +41,7 @@ const Nav = () => {
             </NavigationAnchor>
 
             <NavigationAnchor
-                link={'#'}
+                link={'#experience'}
                 icon={'business_center'}
                 color={'red'}
             >

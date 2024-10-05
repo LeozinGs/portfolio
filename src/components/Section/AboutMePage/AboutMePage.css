@@ -1,6 +1,9 @@
 .about-me {
+    height: 100%;
+    width: 100%;
     padding: 5rem;
     box-sizing: border-box;
+    background-color: var(--clr-background-about-me);
 }
 
 .about-me-title {
@@ -46,4 +49,37 @@
 
 .count:nth-child(3) .count-number {
     color: var(--clr-blue);
+}
+
+@media screen and (max-width: 1368px) {
+    .about-me {
+        padding: 3rem;
+    }
+
+    .about-me-title {
+        font-size: 3em;
+    }
+
+    .about-me-description {
+        font-size: 1em;
+        margin-bottom: 1em;
+    }
+
+    .about-me-text {
+        font-size: .9em;
+        margin-bottom: 1em;
+    }
+
+    .count-container {
+        gap: .5rem;
+    }
+
+    .count-number {
+        font-size: 2.5em;
+    }
+
+    .count-text {
+        font-size: .8em;
+        font-weight: 700;
+    }
 }

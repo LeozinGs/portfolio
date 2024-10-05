@@ -8,7 +8,7 @@ const HomePage = () => {
         >
             <div className='home overlay'>
                 <div className='home-content'>
-                    <p className='home-text'>Hello, I am</p>
+                    <p className='home-text'>Olá, eu sou</p>
                     <h1 className='home-title'>Leonardo Gomes</h1>
                     <p className='home-description'>WEB DEVELOPER</p>
                 </div>

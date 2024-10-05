@@ -16,3 +16,14 @@
 .logo {
     font-size: 2em;
 }
+
+@media screen and (max-width: 1368px) {
+    .photo {
+        height: 4em;
+        width: 4em;
+    }
+
+    .logo {
+        font-size: 1.5em;
+    }
+}

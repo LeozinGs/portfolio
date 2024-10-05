@@ -1,0 +1,113 @@
+.skills {
+    height: 100%;
+    width: 100%;
+    padding: 5rem;
+    background-color: var(--clr-background-skills);
+}
+
+.skills-title {
+    font-size: 4em;
+    margin-bottom: 5rem;
+}
+
+.skills-description {
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
+.skills-text {
+    font-size: 1.1em;
+    font-weight: 500;
+    margin-bottom: 3rem;
+}
+
+.skills-bars-title {
+    font-weight: 500;
+}
+
+.skills-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15rem;
+}
+
+.progress-bar {
+    background-color: lightgrey;
+    border: 1px solid rgb(177, 177, 177);
+    border-radius: 5px;
+}
+
+.skills-bars-title {
+    display: flex;
+    justify-content: space-between;
+}
+
+.skills-bars-left,
+.skills-bars-right {
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.skills-bars-left .bar:nth-child(1) .progress-bar .bar-color {
+    background-color: var(--clr-yellow);
+    height: .4rem;
+    width: 80%;
+}
+
+.skills-bars-left .bar:nth-child(2) .progress-bar .bar-color {
+    background-color: var(--clr-lightOrange);
+    height: .4rem;
+    width: 85%;
+}
+
+.skills-bars-left .bar:nth-child(3) .progress-bar .bar-color {
+    background-color: var(--clr-darkOrange);
+    height: .4rem;
+    width: 75%;
+}
+
+.skills-bars-right .bar:nth-child(1) .progress-bar .bar-color {
+    background-color: var(--clr-red);
+    height: .4rem;
+    width: 55%;
+}
+
+.skills-bars-right .bar:nth-child(2) .progress-bar .bar-color {
+    background-color: var(--clr-darkPink);
+    height: .4rem;
+    width: 20%;
+}
+
+.skills-bars-right .bar:nth-child(3) .progress-bar .bar-color {
+    background-color: var(--clr-pink);
+    height: .4rem;
+    width: 25%;
+}
+
+@media screen and (max-width: 1368px) {
+    .skills {
+        padding: 3rem;
+    }
+
+    .skills-title {
+        font-size: 3em;
+        margin-bottom: .5rem;
+    }
+
+    .skills-description {
+        font-size: 1em;
+        font-weight: 700;
+    }
+
+    .skills-text {
+        font-size: .9em;
+    }
+
+    .skills-container {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 5rem;
+    }
+}

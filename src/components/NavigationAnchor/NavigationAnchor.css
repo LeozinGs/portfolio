@@ -12,10 +12,22 @@
 }
 
 .naivgation-anchor:hover {
+    border-radius: 10px 0px 0px 10px;
     margin-left: -1.5em;
     padding-left: 3.5em;
 }
 
 .icon {
     font-size: 2.5em;
+}
+
+@media screen and (max-width: 1368px) {
+    .naivgation-anchor {
+        font-size: .8em;
+    }
+
+    .naivgation-anchor:hover {
+        margin-left: -1em;
+        padding-left: 3.5em;
+    }
 }
