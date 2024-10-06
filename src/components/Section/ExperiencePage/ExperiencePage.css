@@ -1,4 +1,79 @@
 .experience {
     height: 100%;
+    width: 100%;
     background-color: var(--clr-background-experience);
+    padding: 5rem;
+}
+
+.experience-title {
+    font-size: 4em;
+    font-weight: 700;
+    margin-bottom: 2rem;
+}
+
+.experience-text {
+    font-size: 1.1em;
+    font-weight: 500;
+    margin-bottom: 3rem;
+}
+
+.experience-list-item {
+    font-size: 1.1em;
+    font-weight: 500;
+    padding: .5rem;
+    width: 50%;
+    margin-bottom: 2px;
+    color: var(--clr-text-white);
+    list-style: none;
+}
+
+.experience-list {
+    margin-bottom: 3rem;
+}
+
+.experience-list-item:nth-child(1) {
+    background-color: rgb(255, 107, 107);
+}
+
+.experience-list-item:nth-child(2) {
+    background-color: rgb(252, 112, 170);
+}
+
+.experience-list-item:nth-child(3) {
+    background-color: rgb(255, 107, 107);
+}
+
+.experience-list-item:nth-child(4) {
+    background-color: rgb(252, 112, 170);
+}
+
+.experience-list-item:nth-child(5) {
+    background-color: rgb(255, 107, 107);
+}
+
+.experience-list-item:nth-child(6) {
+    background-color: rgb(252, 112, 170);
+}
+
+.experience-list-item:nth-child(7) {
+    background-color: rgb(255, 107, 107);
+}
+
+@media screen and (max-width: 1368px) {
+    .experience {
+        padding: 3rem;
+    }
+
+    .experience-text {
+        font-size: .9em;
+        margin-bottom: 1em;
+    }
+
+    .experience-title {
+        font-size: 3em;
+    }
+
+    .experience-list-item {
+        font-size: .9em;
+    }
 }
