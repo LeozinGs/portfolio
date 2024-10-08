@@ -49,7 +49,7 @@ const Nav = () => {
             </NavigationAnchor>
 
             <NavigationAnchor
-                link={'#'}
+                link={'#education'}
                 icon={'auto_stories'}
                 color={'darkPink'}
             >

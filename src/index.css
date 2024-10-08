@@ -15,9 +15,10 @@
   --clr-cyan: #04ad81;
   --clr-greenYellow: #87c15e;
 
-  --clr-background-about-me: #f7e8d7;
-  --clr-background-skills: #f0dad0;
-  --clr-background-experience: #e6d5d5;
+  --clr-background-about-me: #f0d9bf;
+  --clr-background-skills: #ebc6b4;
+  --clr-background-experience: #e0bcbc;
+  --clr-background-education: #d6bec7;
 }
 
 * {
